@@ -1,0 +1,14 @@
+{
+  "name": "arithmatic-oparetor/arithmatic-oparetor",
+  "type": "project",
+  "description": "string print project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
