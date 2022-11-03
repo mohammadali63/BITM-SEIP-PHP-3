@@ -4,7 +4,7 @@ namespace App\classes;
 
 class ArrayPhp
 {
-    public $x,$data;
+    public $x,$data= [];
     public function __construct()
     {
         $this->x="hello";
