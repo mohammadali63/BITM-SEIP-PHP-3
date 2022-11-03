@@ -12,7 +12,9 @@ class ArrayPhp
     public function index()
     {
         $this->data=[ 10, 20, 30, "BITM", 100.450, true];
-        echo $this->data[9];
+        echo $this->data[3];
+        echo '<br/>';
+        echo $this->data[0];
     }
 
 }
