@@ -37,36 +37,47 @@ class ArrayPhp
                 ],
             ],
         ];
-        foreach ($this->student as $item)
-        {
-            if (is_array($item))
-            {
-                foreach ($item as $value)
-                {
-                    if (is_array($value))
-                    {
-                      foreach ($value as $v_value)
-                      {
-                          echo $v_value;
-                      }
+        print_r($this->student);
 
-                    }
-                    else
-                    {
-                        echo $value.'';
-                    }
-
-                }
-            }
-            else
-            {
-                echo $item;
-            }
-            echo '<br/>';
-        }
     }
 }
 
+
+
+
+
+
+
+
+
+//
+//foreach ($this->student as $item)
+//{
+//    if (is_array($item))
+//    {
+//        foreach ($item as $value)
+//        {
+//            if (is_array($value))
+//            {
+//                foreach ($value as $v_value)
+//                {
+//                    echo $v_value;
+//                }
+//
+//            }
+//            else
+//            {
+//                echo $value.'';
+//            }
+//
+//        }
+//    }
+//    else
+//    {
+//        echo $item;
+//    }
+//    echo '<br/>';
+//}
 
 
 
