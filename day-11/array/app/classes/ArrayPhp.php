@@ -37,7 +37,9 @@ class ArrayPhp
                 ],
             ],
         ];
+        echo "<pre>";
         print_r($this->student);
+
 
     }
 }
